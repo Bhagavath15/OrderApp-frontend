@@ -16,4 +16,11 @@
         width: 100%
     }
 
+    .navbar nav img {
+        width: 170px;
+    }
+
+    .navbar nav p {
+        font-size: 14px;
+    }
 }
