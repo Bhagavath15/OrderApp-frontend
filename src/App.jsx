@@ -192,7 +192,6 @@ function MobileDetails({ mobileList, setMobileList }) {
             <img src={mobileList.image} alt={mobileList.phoneName} />
           </div>
           <div className="purchase-button">
-            <span className="button"> Add to Cart</span>
             <span className="button button-buy" onClick={handleClick}>Buy Now</span>
           </div>
         </div>

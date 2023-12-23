@@ -1,6 +1,11 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
+@media screen and (max-width: 450px) {
+    .navbar nav img {
+        width: 120px;
+    }
+}
 
 @media screen and (max-width: 550px) {
     .mobile-list {
