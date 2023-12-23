@@ -1,0 +1,19 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@media screen and (max-width: 550px) {
+    .mobile-list {
+        display: flex;
+        flex-direction: column
+    }
+
+    table {
+        width: 100%
+    }
+
+    .mobile-list-details {
+        width: 100%
+    }
+
+}
