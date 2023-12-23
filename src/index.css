@@ -23,4 +23,13 @@
     .navbar nav p {
         font-size: 14px;
     }
+
+    .navbar nav {
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .navbar-content {
+        gap: 10px;
+    }
 }

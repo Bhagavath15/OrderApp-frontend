@@ -17,8 +17,8 @@ export default function App() {
     <div>
       <Navbar search={search} setSearch={setSearch} />
       <Routes>
-        <Route path="/" element={<Signin />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Signin />} />
+        <Route path="/" element={<Login />} />
         <Route path="/forget-password" element={<ForgetPassword />} />
         <Route path="/verifyotp" element={<VerifyOtp />} />
         <Route path="/dashboard" element={<ProtectedRoute><MobileList mobileList={mobileList} setMobileList={setMobileList} search={search} setSearch={setSearch} /></ProtectedRoute>} />
