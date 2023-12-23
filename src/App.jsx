@@ -160,14 +160,14 @@ function MobileDetails({ mobileList, setMobileList }) {
         key_secret: "2TZaVrFSXYnzzu3QeH6N3t3w",
         amount: amount * 100,
         currency: "INR",
-        name: "Amazon Groceries",
+        name: "Flipkart",
         description: "For Booking Ticket",
         handler: function (response) {
           alert(response.razorpay_payment_id)
           // navigate("/thank-you")
-          // setTimeout(() => {
-          //   navigate("/dashboard")
-          // }, 3000)
+          setTimeout(() => {
+            navigate("/dashboard")
+          }, 3000)
         },
         // prefill: {
         //     name: name,
